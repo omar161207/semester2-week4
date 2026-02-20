@@ -15,5 +15,26 @@
     Store your answer in array c
     Print your final answer
     */
+   
+   
+     printf("[");
+   
+   
+     for(int i = 0; i < 5; i++){
+      c[i] = a[i] + b[i];
+      
+      printf("%.2f", c[i]);
+      
+      if(i < 4){
+        printf(", ");
+      }
+
+      if(i == 4){
+        printf("]");
+    }
+    }
+    
+
+    //printf("The sum of your array is %f\n", c[i]);
     return 0;
  }
